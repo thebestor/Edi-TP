@@ -1,124 +1,68 @@
 body {
-  padding-top: 70px; /* Ajusta el valor para que coincida con la altura del navbar */
-  background-image: url('../img/madera.jpg'); /* Cambia 'img/fondo.jpg' a la ruta de tu imagen de fondo */
-  background-size: cover; /* Asegura que la imagen cubra todo el área del body */
-  /* background-repeat: no-repeat;  */
-  background-position: center; /* Centra la imagen en el fondo */
-}
-h1 {
-  text-align: center;
-  font-family: "Ewert", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 50px; /* Ajusta el valor según necesites */
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
 }
 
-.top{
-  color: aliceblue;
-  text-align: center;  
-  background-color: rgb(94, 61, 18);
-  border: solid black 5px;  
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 40px;
-}
-.image-container {
-  display: flex;
-  justify-content: flex-start; /* Centra horizontalmente */
-  align-items: flex-start; /* Centra verticalmente */
-  height: 40vh; /* Ajusta según sea necesario para centrar en toda la altura de la ventana */
-  padding-top: 100px;
-  padding-left: 50px;
-  
-}
-
-.text-container {
-  margin-left: 150px; /* Añade espacio entre la imagen y el texto */
-}
-
-.text-container h4, .text-container p {  
-  margin-right: 350px;
-  padding: 5px 0;
-}
-hr{
-  margin-right: 350px;
-  border-color: black;
-  border-radius: 50%;
-}
-#largo{
-  margin-right: auto;
-}
-.text-container p {
-  text-align: justify; /* Justifica el texto dentro del párrafo */
-}
-
-
-#logo {
-  border: red 2px solid;
-}
-.footer {
-  padding: 20px 0;
-  background-color: #d88509; /* Color de fondo */
-}
-
-.footer a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem; /* Tamaño de los iconos */
-}
-
-.footer a:hover {
-  color: #f8f9fa;
-}
-
-.footer p {
-  margin-top: 10px;
-  font-size: 0.9rem;
-}
 .navbar {
-  padding: 10px 20px; /* Ajusta el espacio dentro del navbar */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para mayor estilo */
+  background-color: #343a40;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-brand {
-  font-size: 1.5rem; /* Tamaño de la fuente para el nombre de la marca */
-  font-weight: bold; /* Negrita para el nombre de la marca */
-  color: white; /* Color del texto de la marca */
-}
-
-.navbar-brand img {
-  margin-right: 10px; /* Espacio entre el logo y el texto */
+  font-weight: 700;
+  color: #fff;
 }
 
 .navbar-nav .nav-link {
-  font-size: 1rem;
-  margin-left: 20px; /* Espacio entre los links */
-  color: white; /* Color blanco para los enlaces */
+  color: #ddd;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #f8f9fa; /* Color más claro al pasar el ratón */
+  color: #fff;
 }
 
-.navbar-toggler {
-  border-color: white; /* Cambia el color del icono de menú en móvil */
-}
-#chop{
-  border: 0px;
-
-}
-.image-container {
-  text-align: center; /* Centra todo el contenido dentro de la imagen y el texto */
+.hero-section {
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px;
+  background: linear-gradient(135deg, #1abc9c 30%, #16a085 100%);
+  color: white;
 }
 
-.carousel {
-  margin-top: 10px;
-  margin: 20px auto; /* Centra horizontalmente y agrega margen superior/inferior */
-  width: 50%; /* Ajusta el ancho del carrusel (puedes cambiar el porcentaje según prefieras) */
+.hero-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
-.tarjetas{
-  background-color: #f0f8ff; /* Color personalizado */
-  color: #333; /* Color de texto */
+.hero-section p {
+  font-size: 1.2rem;
+}
 
+.card {
+  margin: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #1abc9c;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  color: #16a085;
 }
