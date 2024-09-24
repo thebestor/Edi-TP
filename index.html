@@ -6,62 +6,66 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/my.css" rel="stylesheet"> <!-- Enlace al archivo de estilos personalizado -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/my.css" rel="stylesheet"> 
   
   <title>Bodegones</title>
 </head>
 <body>
 
-  <!-- Navbar -->
+  <section id="inicio"></section>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.jpeg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-        Bodegones MDP
-      </a>
+      <!-- Enlace de texto que reemplaza el logo -->
+      <a class="navbar-brand" href="https://tusitio.com">Bodegones</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Inicio</a>
+            <a class="nav-link" href="#inicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Quiénes Somos</a>
+            <a class="nav-link" href="#nosotros">Quiénes Somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
-      </div>      
+      </div>
     </div>
   </nav>
+</section>
 
-  <!-- Hero Section -->
+  
   <div class="hero-section">
     <h1>Bodegones Mar del Plata</h1>
     <p>Descubre los mejores lugares para disfrutar de la gastronomía local.</p>
   </div>
 
-  <!-- Carousel Section -->
+
+  <!-- Carousel  -->
   <div class="container my-5">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/banderita.jpg" class="d-block w-100" alt="Imagen 1">
+          <img src="img/banderita.jpg" class="d-block w-100" alt="imagen de restaurante de frente">
         </div>
         <div class="carousel-item">
-          <img src="img/banderita.jpg" class="d-block w-100" alt="Imagen 2">
+          <img src="img/la-marina.jpg" class="d-block w-100" alt="imagen de restaurante de frente">
         </div>
         <div class="carousel-item">
-          <img src="img/banderita.jpg" class="d-block w-100" alt="Imagen 3">
+          <img src="img/lafamilia.jpg" class="d-block w-100" alt="imagen de restaurante de frente">
+        </div>
+        <div class="carousel-item">
+          <img src="img/el rey del calzon.jpg" class="d-block w-100" alt="imagen de restaurante de frente">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -74,41 +78,132 @@
       </button>
     </div>
   </div>
-
-  <!-- Cards Section -->
+  
+  <div class="container-lg">
+  <h2 class="destacados">Lugares Destacados</h2>
+  </div>
+  <!-- cars -->
   <div class="container my-5">
     <div class="row">
+      <!-- Primera fila -->
       <div class="col-md-4">
         <div class="card">
-          <img src="img/banderita.jpg" class="card-img-top" alt="...">
+          <img src="img/banderita.jpg" class="card-img-top" alt="Banderita">
           <div class="card-body">
-            <h5 class="card-title">Card 1</h5>
-            <p class="card-text">Texto adicional sobre la imagen de la card.</p>
+            <h5 class="card-title">Banderita</h5>
+            <p class="card-text">
+              <a href="https://banderitaparrilla.com/" class="btn btn-primary" target="_blank">web</a>
+            </p>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25141.56063573674!2d-57.556609016476685!3d-38.03088750251691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbanderita!5e0!3m2!1ses!2sar!4v1727043320125!5m2!1ses!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
+  
       <div class="col-md-4">
         <div class="card">
-          <img src="img/banderita.jpg" class="card-img-top" alt="...">
+          <img src="img/la-marina.jpg" class="card-img-top" alt="La Marina">
           <div class="card-body">
-            <h5 class="card-title">Card 2</h5>
-            <p class="card-text">Otro texto adicional sobre la imagen de la card.</p>
+            <h5 class="card-title">La Marina</h5>
+            <p class="card-text">
+              <a href="https://www.instagram.com/lamarinamdq/" class="btn btn-primary" target="_blank">web</a>
+            </p>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.133513082384!2d-57.5496037106289!3d-38.043975274814045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dddd000f0e1f%3A0x43435330ed1e0ec1!2sRestaurante%20La%20Marina!5e0!3m2!1ses!2sar!4v1727043364501!5m2!1ses!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
+  
       <div class="col-md-4">
         <div class="card">
-          <img src="img/banderita.jpg" class="card-img-top" alt="...">
+          <img src="img/lafamilia.jpg" class="card-img-top" alt="La Familia">
           <div class="card-body">
-            <h5 class="card-title">Card 3</h5>
-            <p class="card-text">Texto más detallado sobre esta card.</p>
+            <h5 class="card-title">La Familia</h5>
+            <p class="card-text">
+              <a href="https://www.google.com/search?q=la+familia..." class="btn btn-primary" target="_blank">web</a>
+            </p>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.131973325449!2d-57.55326543363009!3d-38.0440111548797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddded66da0b7%3A0x94dcb603a115cdfa!2sDe%20la%20Familia!5e0!3m2!1ses!2sar!4v1727042333489!5m2!1ses!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  
+    <!-- Segunda fila  -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/el rey del calzon.jpg" class="card-img-top" alt="El Rey del Calzone">
+          <div class="card-body">
+            <h5 class="card-title">Card El Rey del Calzone</h5>
+            <p class="card-text">
+              <a href="https://elreydelcalzone.com.ar/" class="btn btn-primary" target="_blank">web</a>
+            </p>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.8342737829025!2d-57.56617382479928!3d-38.027642871922616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de85e89bb299%3A0xa14d7b5e0d0d0b74!2sEl%20Rey%20del%20Calzone!5e0!3m2!1ses-419!2sar!4v1727183940094!5m2!1ses-419!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/viejo bodegon.jpg" class="card-img-top" alt="Viejo Bodegon City">
+          <div class="card-body">
+            <h5 class="card-title">Viejo Bodegon City</h5>
+            <p class="card-text">
+              <a href="https://www.instagram.com/viejobodegoncity/" class="btn btn-primary" target="_blank">web</a>
+            </p>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.5800840292004!2d-57.548517924105454!3d-38.0102539719269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dde525318b6d%3A0xf234f561a991e8a3!2sViejo%20Bodeg%C3%B3n%20City!5e0!3m2!1ses-419!2sar!4v1727183672572!5m2!1ses-419!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/lo del pela.jpeg" class="card-img-top" alt="El Bodegon del Pela">
+          <div class="card-body">
+            <h5 class="card-title">El Bodegon del Pela</h5>
+            <a href="https://www.instagram.com/elbodegondelpela/" class="btn btn-primary" target="_blank">web</a>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12574.847432145949!2d-57.581482244580016!3d-38.0071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dfc22dfd178f%3A0xf0b010281b84b7c0!2sEl%20Bodeg%C3%B3n%20del%20Pela!5e0!3m2!1ses-419!2sar!4v1727184378345!5m2!1ses-419!2sar" width="295" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
 
-  <!-- Footer -->
+  <section id="nosotros">
+  <div class="container-lg">
+    <h2 class="destacados">Sobre Nosotros</h2>
+  </div> 
+  
+  <div class="container my-5">
+    <div class="row">
+      <div class="col">
+        <div class="custom-box">
+          <h6>            
+            Bodegones Mar del Plata es un proyecto dedicado a compartir y descubrir los mejores bodegones
+            de nuestra ciudad. Amantes de la buena gastronomía, nuestro sitio web reúne los lugares más 
+            emblemáticos y escondidos donde se preserva la tradición culinaria local. Desde parrillas 
+            auténticas hasta bares de barrio con platos caseros, nuestra misión es acercar a marplatenses 
+            y turistas la riqueza de nuestra cultura gastronómica.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+    
+    
+    <!-- Footer -->
+
   <footer class="footer">
     <div class="container text-center">
       <p>Síguenos en nuestras redes sociales:</p>
@@ -128,6 +223,6 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="css/bootstrap.bundle.min.js"></script>
 </body>
 </html>

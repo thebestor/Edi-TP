@@ -1,11 +1,18 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
+  padding-top: 70px; /* Ajusta el valor para que coincida con la altura del navbar */
+  background-image: url('../img/madera.jpg'); /* Cambia 'img/fondo.jpg' a la ruta de tu imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el área del body */
+  /* background-repeat: no-repeat;  */
+  background-position: center; /* Centra la imagen en el fondo */
+  
 }
 
 .navbar {
   background-color: #343a40;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -20,12 +27,25 @@ body {
 .navbar-nav .nav-link:hover {
   color: #fff;
 }
+.navbar-brand {
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  color: #cff3ad; /* Color personalizado */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  font-family: 'Arial', sans-serif; /* Fuente personalizable */
+}
+
+.navbar-brand:hover {
+  color: #f186a5; /* Color del texto al pasar el mouse */
+  text-decoration: none; /* Quita el subrayado al pasar el mouse */
+}
 
 .hero-section {
   text-align: center;
   margin-top: 100px;
-  padding: 50px;
-  background: linear-gradient(135deg, #1abc9c 30%, #16a085 100%);
+  padding: 10px;
+  background-color: #343a40;
   color: white;
 }
 
@@ -38,17 +58,56 @@ body {
 .hero-section p {
   font-size: 1.2rem;
 }
+.destacados  {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #343a40;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+}
 
 .card {
   margin: 20px;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.carousel {
+  width: 70%; /* Reduce el tamaño al 70% del contenedor */
+  height: 700px;
+  margin: auto; /* Centra el carrusel */
+}
+
+.card-img-top {
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  height: 200px; /* Define una altura fija */
+  object-fit: cover; /* Mantiene la proporción de la imagen y rellena el área */
+}
+.map-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.custom-box {
+  background-color: #343a40; /* Fondo oscuro */
+  color: #ffffff; /* Texto en blanco */
+  padding: 20px; /* Espaciado interno */
+  /* border: 2px solid #ffffff; Borde blanco */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+h6 {
+  color: #ffffff; /* Asegurar que el texto sea blanco */
 }
 
 .footer {
