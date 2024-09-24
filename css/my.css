@@ -2,9 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
   padding-top: 70px; /* Ajusta el valor para que coincida con la altura del navbar */
-  background-image: url('../img/madera.jpg'); /* Cambia 'img/fondo.jpg' a la ruta de tu imagen de fondo */
-  background-size: cover; /* Asegura que la imagen cubra todo el área del body */
-  /* background-repeat: no-repeat;  */
+  background-image: url('../img/madera.jpg'); /*imagen de fondo */
+  background-size: cover; /* la imagen cubre todo el  body */
   background-position: center; /* Centra la imagen en el fondo */
   
 }
@@ -21,7 +20,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: #ddd;
+  color: #16a085;
 }
 
 .navbar-nav .nav-link:hover {
@@ -30,15 +29,15 @@ body {
 .navbar-brand {
   font-size: 1.5rem; /* Tamaño del texto */
   font-weight: bold; /* Negrita */
-  color: #cff3ad; /* Color personalizado */
+  color: #16a085; /* Color personalizado */
   text-transform: uppercase; /* Texto en mayúsculas */
   letter-spacing: 2px; /* Espaciado entre letras */
   font-family: 'Arial', sans-serif; /* Fuente personalizable */
 }
 
 .navbar-brand:hover {
-  color: #f186a5; /* Color del texto al pasar el mouse */
-  text-decoration: none; /* Quita el subrayado al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+  
 }
 
 .hero-section {
@@ -83,14 +82,14 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .carousel {
-  width: 70%; /* Reduce el tamaño al 70% del contenedor */
+  width: 70%; /* tamaño al 70% del contenedor */
   height: 700px;
-  margin: auto; /* Centra el carrusel */
+  margin: auto; /* Centrar el carrusel */
 }
 
 .card-img-top {
-  width: 100%; /* Asegura que ocupe todo el ancho disponible */
-  height: 200px; /* Define una altura fija */
+  width: 100%; /* ancho */
+  height: 200px; /*  altura  */
   object-fit: cover; /* Mantiene la proporción de la imagen y rellena el área */
 }
 .map-container {
@@ -98,16 +97,15 @@ body {
   margin-top: 15px;
 }
 .custom-box {
-  background-color: #343a40; /* Fondo oscuro */
-  color: #ffffff; /* Texto en blanco */
+  background-color: #343a40; /* Fondo  */
+  color: #ffffff; /* Texto blanco */
   padding: 20px; /* Espaciado interno */
-  /* border: 2px solid #ffffff; Borde blanco */
   border-radius: 10px; /* Borde redondeado */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 h6 {
-  color: #ffffff; /* Asegurar que el texto sea blanco */
+  color: #ffffff; /* texto  blanco */
 }
 
 .footer {
